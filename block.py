@@ -22,7 +22,7 @@ blocksList = [
     Block('Gas', [172, 250, 162], BlockState.Gas, False, False),
     Block('Flamable Gas', [200, 250, 100], BlockState.Gas, True, False),
     Block('Oil', [0, 20, 72], BlockState.Liquid, True, False),
-    Block('Fire', [255, 128, 0], BlockState.SolidGravity, False, True),
+    Block('Fire', [255, 128, 0], BlockState.Solid, False, True),
     Block('Lava', [255, 142, 0], BlockState.Liquid, False, True)
 ]
 
